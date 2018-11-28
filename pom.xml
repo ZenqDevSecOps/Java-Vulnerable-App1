@@ -51,13 +51,13 @@
         <plugin>
             <groupId>org.owasp</groupId>
             <artifactId>dependency-check-maven</artifactId>
-            <version>3.2.1</version>
+            <version>3.2.5</version>
             <!-- https://jeremylong.github.io/DependencyCheck/dependency-check-maven/configuration.html -->
             <configuration>
                 <!-- Generate all report formats -->
                 <format>ALL</format>
                 <!-- Don't use Nexus Analyzer -->
-                <centralAnalyzerEnabled>false</centralAnalyzerEnabled>
+                <centralAnalyzerEnabled>true</centralAnalyzerEnabled>
                 <!-- Am I the latest version? -->
                 <versionCheckEnabled>false</versionCheckEnabled>
             </configuration>
