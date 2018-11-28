@@ -65,7 +65,7 @@
             <executions>
                 <execution>
                     <goals>
-                        <goal>mvn dependency-check:aggregate</goal>
+                        <goal>aggregate</goal>
                     </goals>
                 </execution>
             </executions>
