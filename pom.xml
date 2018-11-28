@@ -18,12 +18,6 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-	<dependency>
-	  <groupId>org.owasp</groupId>
-	  <artifactId>dependency-check-maven</artifactId>
-	  <version>4.0.0</version>
-	  <type>maven-plugin</type>
-	</dependency>
     <dependency>
     	<groupId>mysql</groupId>
     	<artifactId>mysql-connector-java</artifactId>
@@ -79,18 +73,4 @@
         </plugin>
     </plugins>
 </build>
-<reporting>
-        <plugins>
-            <plugin>
-                <groupId>org.owasp</groupId>
-                <artifactId>dependency-check-maven</artifactId>
-                <version>3.2.1</version>
-                <configuration>
-                    <format>ALL</format>
-                    <centralAnalyzerEnabled>false</centralAnalyzerEnabled>
-                    <versionCheckEnabled>true</versionCheckEnabled>
-                </configuration>
-            </plugin>
-        </plugins>
-    </reporting>
 </project>
