@@ -57,15 +57,15 @@
                 <!-- Generate all report formats -->
                 <format>ALL</format>
                 <!-- Don't use Nexus Analyzer -->
-                <centralAnalyzerEnabled>true</centralAnalyzerEnabled>
+                <centralAnalyzerEnabled>false</centralAnalyzerEnabled>
                 <!-- Am I the latest version? -->
-                <versionCheckEnabled>false</versionCheckEnabled>
+                <versionCheckEnabled>true</versionCheckEnabled>
             </configuration>
             <!-- add an execution to be automatically ran as part of the 'verify' build lifecycle phase -->
             <executions>
                 <execution>
                     <goals>
-                        <goal>aggregate</goal>
+                        <goal>check</goal>
                     </goals>
                 </execution>
             </executions>
