@@ -63,13 +63,6 @@
                 <versionCheckEnabled>true</versionCheckEnabled>
             </configuration>
             <!-- add an execution to be automatically ran as part of the 'verify' build lifecycle phase -->
-            <executions>
-                <execution>
-                    <goals>
-                        <goal>check</goal>
-                    </goals>
-                </execution>
-            </executions>
         </plugin>
     </plugins>
 </build>
