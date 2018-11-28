@@ -50,9 +50,12 @@
     <finalName>Vulnerable Java application</finalName>
     <plugins>
         <plugin>
-            <groupId>org.owasp</groupId>
-            <artifactId>dependency-check-maven</artifactId>
-            <version>4.0.0</version>
+            <dependency>
+		  <groupId>org.owasp</groupId>
+		  <artifactId>dependency-check-maven</artifactId>
+		  <version>4.0.0</version>
+		  <type>maven-plugin</type>
+		</dependency>
             <!-- https://jeremylong.github.io/DependencyCheck/dependency-check-maven/configuration.html -->
             <configuration>
                 <!-- Generate all report formats -->
